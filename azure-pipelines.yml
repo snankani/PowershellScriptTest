@@ -6,5 +6,3 @@ jobs:
     - powershell: |
         .\QuickTest.ps1 -Verbose
       displayName: 'Quick Test'
-    - task: PublishTestResults@2
-      displayName: 'Powershell Hello World'
