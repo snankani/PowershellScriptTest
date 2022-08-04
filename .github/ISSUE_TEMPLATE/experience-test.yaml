@@ -17,58 +17,58 @@ body:
     validations:
       required: true
 
-   - type: input
-     id: date
-     attributes:
+  - type: input
+    id: date
+    attributes:
        label: Launch Date
        description: Please provide the expected launch date for this Experience.
        placeholder: ex. MM/DD/YYYY
-     validations:
+    validations:
        required: true
 
-   - type: textarea
-     id: description
-     attributes:
+  - type: textarea
+    id: description
+    attributes:
        label: Experience Description
        description: Please provide the description you would like to display for the Experience.
-     validations:
+    validations:
        required: true
 
-   - type: textarea
-     id: logo
-     attributes:
+  - type: textarea
+    id: logo
+    attributes:
        label: Experience Logo
        description: Please upload the logo you would like to use for this Experience.
-     validations:
+    validations:
        required: true
 
-   - type: textarea
-     id: benefits
-     attributes:
+  - type: textarea
+    id: benefits
+    attributes:
        label: Benefits Description
        description: Please provide the three titles and descriptions for the Benefits section.
-     validations:
+    validations:
        required: true
 
-   - type: input
-     id: offers
-     attributes:
+  - type: input
+    id: offers
+    attributes:
        label: Offers
        description: Please provide a list of the offers that will be included in this Experience.
        placeholder: digitalocean, microsoft, ...
-     validations:
+    validations:
        required: true
 
-   - type: textarea
-     id: partners
-     attributes:
+  - type: textarea
+    id: partners
+    attributes:
        label: Additional Benefits
        description: Please provide the name of the partner, short header, description, benefit link, and CTA link text for each additional benefit that is currently not a part of the Pack.
-       placeholder: Partner Name - Header: Description
+       placeholder: Partner Name - Header Description
 
-   - type: textarea
-     id: videos
-     attributes:
+  - type: textarea
+    id: videos
+    attributes:
        label: Experience Videos
        description: If applicable, please provide video links for this Experience.
        placeholder: Title of video; Link to video
