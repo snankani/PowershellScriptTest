@@ -1,0 +1,74 @@
+name: New Experience
+description: Request a new Experience on Global Campus
+title: '[New Experience]:'
+assignees:
+  - ericdrosado
+body:
+  - type: markdown
+    attributes:
+      value:
+        Thank you for opening an issue for a new Experience. This issue should be created at least 3 weeks in advance of the expected launch date. Please open this issue once all the required components of an Experience are ready for deployment.
+
+  - type: input
+    id: title
+    attributes:
+      label: Name of Experience
+      description: Please provide the name of the Experience.
+    validations:
+      required: true
+
+   - type: input
+     id: date
+     attributes:
+       label: Launch Date
+       description: Please provide the expected launch date for this Experience.
+       placeholder: ex. MM/DD/YYYY
+     validations:
+       required: true
+
+   - type: textarea
+     id: description
+     attributes:
+       label: Experience Description
+       description: Please provide the description you would like to display for the Experience.
+     validations:
+       required: true
+
+   - type: textarea
+     id: logo
+     attributes:
+       label: Experience Logo
+       description: Please upload the logo you would like to use for this Experience.
+     validations:
+       required: true
+
+   - type: textarea
+     id: benefits
+     attributes:
+       label: Benefits Description
+       description: Please provide the three titles and descriptions for the Benefits section.
+     validations:
+       required: true
+
+   - type: input
+     id: offers
+     attributes:
+       label: Offers
+       description: Please provide a list of the offers that will be included in this Experience.
+       placeholder: digitalocean, microsoft, ...
+     validations:
+       required: true
+
+   - type: textarea
+     id: partners
+     attributes:
+       label: Additional Benefits
+       description: Please provide the name of the partner, short header, description, benefit link, and CTA link text for each additional benefit that is currently not a part of the Pack.
+       placeholder: Partner Name - Header: Description
+
+   - type: textarea
+     id: videos
+     attributes:
+       label: Experience Videos
+       description: If applicable, please provide video links for this Experience.
+       placeholder: Title of video; Link to video
